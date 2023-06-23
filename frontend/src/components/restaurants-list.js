@@ -87,7 +87,7 @@ const RestaurantList = props => {
   return (
     <div>
       <div className="row pb-1">
-        <div className="input-group col-lg">
+        <div className="input-group col-lg-1">
           <input
             type="text"
             className="form-control"
@@ -105,7 +105,7 @@ const RestaurantList = props => {
             </button>
           </div>
         </div>
-        <div className="input-group col-lg">
+        <div className="input-group col-lg-1">
           <input
             type="text"
             className="form-control"

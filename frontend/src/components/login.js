@@ -1,10 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom"
 
 const Login = props =>{
-  const history = useNavigate();
   const initialUserState = {
     name: "",
     id: "",
@@ -19,7 +17,7 @@ const Login = props =>{
 
   const login = () => {
     props.login(user)
-    history('/');
+    props.history.push('/');
     
   }
 
